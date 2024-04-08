@@ -4,6 +4,6 @@ SELECT ?term ?value
 WHERE {
   ?term rdfs:label ?value .
   FILTER (REGEX(?value, "http[s]?[:]"))
-  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://nahimsouza.github.io/odknobo/ODKNOBO_")))
+  FILTER(isIRI(?term) && (STRSTARTS(str(?term), "http://www.semanticweb.org/pizzatutorial/ontologies/2020//ODKNOBO_")))
 }
 

@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                64cb1ab09b18ecd875daa55698b490ffd9fc11a233dd289666c837688e1878d3
+CONFIG_HASH=                b310d3ac22056043afcbd037fa51bf3fe1e8a95f9d3753b4eece919fd0fcf6a5
 
 
 # ----------------------------------------
@@ -19,9 +19,9 @@ CONFIG_HASH=                64cb1ab09b18ecd875daa55698b490ffd9fc11a233dd289666c8
 # these can be overwritten on the command line
 
 OBOBASE=                    http://purl.obolibrary.org/obo
-URIBASE=                    http://nahimsouza.github.io/odknobo
+URIBASE=                    http://www.semanticweb.org/pizzatutorial/ontologies/2020/
 ONT=                        odknobo
-ONTBASE=                    http://nahimsouza.github.io/odknobo/odknobo
+ONTBASE=                    http://www.semanticweb.org/pizzatutorial/ontologies/2020//odknobo
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false

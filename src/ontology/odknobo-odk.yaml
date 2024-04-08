@@ -12,7 +12,7 @@ create_obo_metadata: false
 dosdp_tools_options: "--obo-prefixes=false"
 export_formats:
   - owl
-uribase: "http://nahimsouza.github.io/odknobo"
+uribase: "http://www.semanticweb.org/pizzatutorial/ontologies/2020/"
 import_group:
   annotate_defined_by: true
   annotation_properties: []
